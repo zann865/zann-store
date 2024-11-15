@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zann.Store - Top Up Diamond Mobile Legends</title>
+    <style>
+        /* Mengatur font dan warna dasar */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #1a1a2e;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            background-color: #16213e;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2rem;
+            color: #00f5d4;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 20px;
+            color: #a1a1c1;
+        }
+        .diamond-packages {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .package {
+            background-color: #0f3460;
+            border-radius: 10px;
+            padding: 20px;
+            width: 160px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .package:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 255, 212, 0.5);
+        }
+        .package h2 {
+            font-size: 1.2rem;
+            color: #00f5d4;
+            margin-bottom: 10px;
+        }
+        .package p {
+            font-size: 1rem;
+            color: #e6e6e6;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 15px;
+            color: #ffffff;
+            background-color: #00f5d4;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #00bfbf;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Zann.Store</h1>
+        <p>Pilih paket Diamond Mobile Legends yang ingin kamu beli dan klik tombol "Beli Sekarang" untuk melanjutkan ke WhatsApp.</p>
+
+        <div class="diamond-packages">
+            <!-- Paket Diamond 50 -->
+            <div class="package">
+                <h2>50 Diamond</h2>
+                <p>Rp 16,000</p>
+                <a href="https://wa.me/6285326673897?text=Saya%20ingin%20membeli%2050%20Diamond%20Mobile%20Legends%20di%20Zann.Store" class="btn">Beli Sekarang</a>
+            </div>
+
+            <!-- Paket Diamond 150 -->
+            <div class="package">
+                <h2>150 Diamond</h2>
+                <p>Rp 45,000</p>
+                <a href="https://wa.me/6285326673897?text=Saya%20ingin%20membeli%20150%20Diamond%20Mobile%20Legends%20di%20Zann.Store" class="btn">Beli Sekarang</a>
+            </div>
+
+            <!-- Paket Diamond 500 -->
+            <div class="package">
+                <h2>500 Diamond</h2>
+                <p>Rp 140,000</p>
+                <a href="https://wa.me/6285326673897?text=Saya%20ingin%20membeli%20500%20Diamond%20Mobile%20Legends%20di%20Zann.Store" class="btn">Beli Sekarang</a>
+            </div>
+
+            <!-- Paket Diamond 1000 -->
+            <div class="package">
+                <h2>1000 Diamond</h2>
+                <p>Rp 282,000</p>
+                <a href="https://wa.me/6285326673897?text=Saya%20ingin%20membeli%201000%20Diamond%20Mobile%20Legends%20di%20Zann.Store" class="btn">Beli Sekarang</a>
+            </div>
+
+            <!-- Paket Diamond 2000 -->
+            <div class="package">
+                <h2>2000 Diamond</h2>
+                <p>Rp 505,000</p>
+                <a href="https://wa.me/6285326673897?text=Saya%20ingin%20membeli%202000%20Diamond%20Mobile%20Legends%20di%20Zann.Store" class="btn">Beli Sekarang</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
